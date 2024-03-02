@@ -176,8 +176,14 @@
 }
 
 .dropdown-menu.show {
-    border: 0;
+    outline: none;
+    border-radius: 35px;
+    border: 1px solid var(--color-bgsecondary-);
+    padding: 15px 28px;
     padding-left: 35px;
+}
+.dropdown-item:hover {
+    background-color: transparent;
 }
 
 .modal-header {
